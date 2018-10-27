@@ -1,8 +1,8 @@
 # code your #position_taken? method here!
 def position_taken?(board, index)
   if board[index] == "x" || "o"
-    return True
+    return true 
   elsif board[index] == " " || "" || nil
-    return False
+    return false 
   end
 end
